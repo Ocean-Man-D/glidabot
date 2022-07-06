@@ -36,7 +36,7 @@ if chance == 1:
     finalPara += "\n"
     finalPara += readRandomLine('endings.txt')
 
-#Bypass Facebook spam protection
+#Creating a thin line photo to bypass Facebook spam protection
 img = Image.new('RGBA', (540, 1), color = "White")
 img.save('out.png')
 
